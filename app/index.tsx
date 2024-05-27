@@ -3,6 +3,7 @@ import { router } from 'expo-router';
 import { useEffect } from 'react';
 
 export default function Root() {
+
     const { session, isLoading } = useSession();
 
     useEffect(() => {
